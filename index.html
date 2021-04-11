@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Ejemplo inicial de eventos">
+    <meta name="keywords" content="Etiquetas HTML, CSS, Javascript, DOM">
+    <title>Formulario De Contacto</title>
+    <link rel="stylesheet" href="./resources/css/styilee.css">
+    <script type=module src="./resources/js/app.js"></script>
+
+</head>
+
+<body>
+
+
+
+    <div id="formulario">
+        <div id="cabecera">
+            <h2>Formulario De Contacto </h2>
+        </div>
+        <div id="entradas">
+            <label for="txtnombre">Nombres:</label><br>
+            <input type="text" id="txtnombre" placeholder="Ingrese un nombre"><br><br>
+
+            <label for="txtapellidos">Apellidos:</label><br>
+            <input type="text" id="txtapellidos" placeholder="Ingrese un apellido"><br><br>
+
+            <label for="txtdireccion">Direccion :</label><br>
+            <input type="text" id="txtdireccion" placeholder="ingrese su direccion fisica"><br><br>
+
+            <label for="txtcorreo">Correo electronico:</label><br>
+            <input type="email" id="txtcorreo" placeholder="Ingrese su correo "><br><br>
+            
+            <label for="txttelefono">Telefono de contacto:</label><br>
+            <input type="text" id="txttelefono" placeholder="Ingrese su telefono"><br><br>
+
+            <label for="txtedad">Edad:</label><br>
+            <input type="text" id="txtedad" placeholder="Ingrese su edad"><br><br>
+
+            <label for="selsexo">Sexo:</label>
+            <select id="selsexo">
+                <option value="hombre">Hombre</option>
+                <option value="mujer" >Mujer</option>
+                <option value="nn">Medio hombre/Medio mujer</option>
+              </select><br><br>
+
+            <label for="segsocial">Tiene seguro social:</label>
+            <input type="checkbox" id="segsocial"><br><br>
+
+            <label for="rh">RH+:</label>
+            <input type="checkbox" id="rh" ><br><br>
+
+
+            <label for="gustos">Describa sus gustos:</label><br>
+            <textarea id="gustos" rows="10" cols="50"></textarea><br><br>
+            
+            
+
+
+            <button id="btnenviar" class="btn">Enviar</button>
+            <button id='btncancelar' class="btn">Cancelar</button>
+
+            
+        </div>
+    </div>
+
+
+    <footer>
+        <!--
+            aqui podria poner unos loguitos en el pie de pagina para hacerlo mas bonito
+            <div id="pie">
+            <img src="./resources/assets/images/logo_proco.png" class="imagen">
+            <img src="./resources/assets/images/Gobierno-logo.png" class="imagen">
+
+        </div>
+    -->
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+
+*{
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif
+}
+
+
+
+#cabecera{
+    border-radius: 10px;
+    padding: 15px;
+    background: rgb(97, 96, 96);
+    width: auto;
+}
+#entradas{
+    border-radius: 10px;
+    padding: 20px;
+    background: rgb(141, 140, 140);
+    width: auto;
+}
+
+#formulario{
+    border-radius: 10px;
+    margin: auto;
+    width: 20%;
+    background: rgba(255, 255, 255, 0);
+    top:50%;
+}
+
+#pie{
+    background: white;
+    padding: 15px;
+    text-align: center;
+    margin: 30px auto;
+    width: 90%;
+}
+
+.imagen{
+    width: 30%;
+    margin: auto;
+    padding: 30px;
+}
+
+.btn{
+
+background:gray;
+
+}
+
+#selsexo{
+    background-color: gray;
+}
